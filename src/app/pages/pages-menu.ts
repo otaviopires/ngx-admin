@@ -6,31 +6,45 @@ export const MENU_ITEMS: NbMenuItem[] = [
     icon: 'home-outline',
     link: '/pages/dashboard',
     home: true,
-  },
+  },  
   {
-    title: 'FEATURES',
-    group: true,
-  },
+    title: 'GEO ID',
+    icon: 'home-outline',
+    link: '/pages/dashboard',
+  },  
   {
-    title: 'Auth',
-    icon: 'lock-outline',
-    children: [
-      {
-        title: 'Login',
-        link: '/auth/login',
-      },
-      {
-        title: 'Register',
-        link: '/auth/register',
-      },
-      {
-        title: 'Request Password',
-        link: '/auth/request-password',
-      },
-      {
-        title: 'Reset Password',
-        link: '/auth/reset-password',
-      },
-    ],
+    title: 'Vendor Analysys',
+    icon: 'home-outline',
+    link: '/pages/dashboard',
+  },  
+  {
+    title: 'Custumer Analysys',
+    icon: 'home-outline',
+    link: '/pages/dashboard',
+  },  
+  {
+    title: 'Marketing Analysys',
+    icon: 'home-outline',
+    link: '/pages/dashboard',
+  },  
+  {
+    title: 'Mensagem',
+    icon: 'home-outline',
+    link: '/pages/dashboard',
+  },  
+  {
+    title: 'Configurações',
+    icon: 'home-outline',
+    link: '/pages/configuration',
+  },  
+  {
+    title: 'Suporte',
+    icon: 'home-outline',
+    link: '/pages/dashboard',
+  },  
+  {
+    title: 'Sair',
+    icon: 'home-outline',
+    link: '/pages/dashboard',
   },
 ];
