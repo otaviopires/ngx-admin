@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { PagesComponent } from './pages.component';
 import { ConfigurationComponent } from './configuration/configuration.component';
 import { ECommerceComponent } from './e-commerce/e-commerce.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 
@@ -18,6 +19,10 @@ const routes: Routes = [{
     {
       path: 'configuration',
       component: ConfigurationComponent
+    },
+    {
+      path: 'home',
+      component: DashboardComponent
     },
     {
       path: '',

@@ -15,36 +15,36 @@ export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: 'GEO ID',
     icon: 'home-outline',
-    link: '/pages/dashboard',
+    link: '/pages/home',
   },  
   {
     title: 'Vendor Analysys',
     icon: 'home-outline',
-    link: '/pages/dashboard',
+    link: '/pages/home',
   },  
   {
     title: 'Custumer Analysys',
     icon: 'home-outline',
-    link: '/pages/dashboard',
+    link: '/pages/home',
   },  
   {
     title: 'Marketing Analysys',
     icon: 'home-outline',
-    link: '/pages/dashboard',
+    link: '/pages/home',
   },  
   {
     title: 'Mensagem',
     icon: 'home-outline',
-    link: '/pages/dashboard',
+    link: '/pages/home',
   },
   {
     title: 'Suporte',
     icon: 'home-outline',
-    link: '/pages/dashboard',
+    link: '/pages/home',
   },  
   {
     title: 'Sair',
     icon: 'home-outline',
-    link: '/pages/dashboard',
+    link: '/pages/home',
   },
 ];
