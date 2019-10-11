@@ -8,8 +8,9 @@ export class UserService extends UserData {
   private time: Date = new Date;
 
   private users = {
+    
+    joao: { name: 'João Silva', picture: 'assets/images/joao.png' },
     nick: { name: 'Nick Jones', picture: 'assets/images/nick.png' },
-    joao: { name: 'João', picture: 'https://i0.wp.com/www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png?fit=256%2C256&quality=100&ssl=1' },
     eva: { name: 'Eva Moor', picture: 'assets/images/eva.png' },
     jack: { name: 'Jack Williams', picture: 'assets/images/jack.png' },
     lee: { name: 'Lee Wong', picture: 'assets/images/lee.png' },
@@ -22,8 +23,8 @@ export class UserService extends UserData {
     work: 'work',
   };
   private contacts: Contacts[] = [
-    { user: this.users.nick, type: this.types.mobile },
     { user: this.users.joao, type: this.types.mobile },
+    { user: this.users.nick, type: this.types.mobile },
     { user: this.users.eva, type: this.types.home },
     { user: this.users.jack, type: this.types.mobile },
     { user: this.users.lee, type: this.types.mobile },
@@ -31,10 +32,10 @@ export class UserService extends UserData {
     { user: this.users.kate, type: this.types.work },
   ];
   private recentUsers: RecentUsers[]  = [
+    { user: this.users.joao, type: this.types.home, time: this.time.setHours(21, 12)},
     { user: this.users.alan, type: this.types.home, time: this.time.setHours(21, 12)},
     { user: this.users.eva, type: this.types.home, time: this.time.setHours(17, 45)},
     { user: this.users.nick, type: this.types.mobile, time: this.time.setHours(5, 29)},
-    { user: this.users.joao, type: this.types.mobile, time: this.time.setHours(5, 29)},
     { user: this.users.lee, type: this.types.mobile, time: this.time.setHours(11, 24)},
     { user: this.users.jack, type: this.types.mobile, time: this.time.setHours(10, 45)},
     { user: this.users.kate, type: this.types.work, time: this.time.setHours(9, 42)},

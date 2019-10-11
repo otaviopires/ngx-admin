@@ -6,6 +6,7 @@ import { PagesComponent } from './pages.component';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { PagesRoutingModule } from './pages-routing.module';
 import { ConfigurationModule } from './configuration/configuration.module';
+import { ECommerceModule } from './e-commerce/e-commerce.module';
 
 
 
@@ -15,7 +16,8 @@ import { ConfigurationModule } from './configuration/configuration.module';
     ThemeModule,
     NbMenuModule,
     DashboardModule,
-    ConfigurationModule
+    ConfigurationModule,
+    ECommerceModule
   ],
   declarations: [
     PagesComponent
