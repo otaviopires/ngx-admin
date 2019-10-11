@@ -1,19 +1,26 @@
-import { NgModule } from '@angular/core';
-import { Component, ViewChild } from '@angular/core';
+import { Component, ViewChild, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
   selector: 'ngx-configuration',
+  changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './configuration.component.html',
-  styleUrls: ['./configuration.component.scss']
+  styleUrls: ['./configuration.component.scss'],
+  styles: [`
+    :host nb-tab {
+      padding: 1.25rem;
+    }
+  `],
 })
 export class ConfigurationComponent{
 
   @ViewChild('item', { static: true }) accordion;
+  
+  checked = false;
 
-  toggle() {
+  toggle(checked: boolean) {
     this.accordion.toggle();
+    this.checked = checked;
   }
-
 }
 
 export class ConfigurationModule { }

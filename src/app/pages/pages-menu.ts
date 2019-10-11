@@ -6,7 +6,12 @@ export const MENU_ITEMS: NbMenuItem[] = [
     icon: 'home-outline',
     link: '/pages/dashboard',
     home: true,
-  },  
+  },
+  {
+    title: 'Configurações',
+    icon: 'home-outline',
+    link: '/pages/configuration',
+  },   
   {
     title: 'GEO ID',
     icon: 'home-outline',
@@ -31,12 +36,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     title: 'Mensagem',
     icon: 'home-outline',
     link: '/pages/dashboard',
-  },  
-  {
-    title: 'Configurações',
-    icon: 'home-outline',
-    link: '/pages/configuration',
-  },  
+  },
   {
     title: 'Suporte',
     icon: 'home-outline',
