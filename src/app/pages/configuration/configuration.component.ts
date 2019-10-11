@@ -7,7 +7,7 @@ import { Component, ViewChild, ChangeDetectionStrategy } from '@angular/core';
   styleUrls: ['./configuration.component.scss'],
   styles: [`
     :host nb-tab {
-      padding: 1.25rem;
+      padding: 1rem;
     }
   `],
 })
